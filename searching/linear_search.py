@@ -5,7 +5,7 @@ def linear_search(arr, value):
   for i in arr:
     if arr[i] == value:
       return i
-  return None;
+  return None
 
 
 def linear_search_multiple(arr, value):
