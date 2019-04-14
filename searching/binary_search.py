@@ -3,7 +3,7 @@
 import math
 def binary_search_recursive(arr, value, low, high):
   if high < low:
-    retrun None
+    return None
   mid = math.floor((low + high)/2)
   if arr[mid] > value:
     return binary_search_recursive(arr, value, low, mid - 1)
